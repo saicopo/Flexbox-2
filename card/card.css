@@ -1,0 +1,68 @@
+:root {
+    --flexino: flex;
+    --colonna: column;
+}
+
+body {
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 70vh;
+    width: 55vh;
+    background-color: rgb(254, 247, 226);
+    border-radius: 57px;
+    display: var(--flexino);
+    flex-direction: var(--colonna);
+}
+
+image {
+    height: 70%;
+}
+
+img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 45px 45px 0px 0px
+}
+
+.info {
+    height: 30%;
+    display: var(--flexino);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.descr {
+    width: 50%;
+    height: 50%;
+    display: var(--flexino);
+    align-items: center;
+}
+span::first-line{
+    font-weight: bold;
+}
+
+.price {
+    width: 50%;
+    height: 50%;
+    display: var(--flexino);
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    font-size: 80%;
+    margin: 0;
+}
+
+button {
+    height: 30%;
+    width: 40%;
+    border-radius: 50px;
+    font-size: xx-small;
+    background-color: rgb(255, 223, 126);
+}

@@ -1,0 +1,36 @@
+:root {
+    --bordi-rotondi: 100px
+}
+*{box-sizing: border-box;}
+                    /*--------NAVBAR---------------*/
+nav {
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(251, 247, 227);
+
+    justify-content: space-evenly;
+    border-radius: var(--bordi-rotondi);
+}
+span {
+    display: flex;
+    height: 7vh;
+    border-radius: var(--bordi-rotondi);
+    background-color: rgb(243, 223, 133);
+    align-content: center;
+    align-self: center;
+    
+}
+a {
+    color: rgb(114, 59, 22);
+    font-size: smaller;
+    padding: 2vh;
+    
+}
+.shop {
+    height: 12vh;
+    align-self: center;
+}
+.img-shop{padding: 2vh;
+    }
+.link-shop{font-size: 30px;}
